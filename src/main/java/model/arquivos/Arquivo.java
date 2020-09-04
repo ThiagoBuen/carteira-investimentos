@@ -1,6 +1,7 @@
 package model.arquivos;
 
 import java.io.File;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -44,6 +45,7 @@ public class Arquivo
 		if (investimentos != null) 
 		{
 			file = new File("investimentos.csv");
+			
 			try 
 			{
 				fileWriter = new FileWriter(file, true);

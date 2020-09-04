@@ -20,7 +20,7 @@ public class Carteira {
 
 	private List<Investimento> investimentos;
 
-
+    
 	public Carteira(String corretora) {
 		this.corretora = corretora;
 		this.investimentos = new ArrayList<>();

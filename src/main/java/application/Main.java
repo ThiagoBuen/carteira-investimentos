@@ -8,16 +8,19 @@ import model.entities.Investimento;
 import model.entities.RendaFixa;
 import model.factory.CarteiraFactory;
 
-public class Main {
+public class Main 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int option = -1;
 		
 		Carteira carteira = null;
 		
-		while (option != 0) {
+		while (option != 0) 
+		{
 			System.out.println("[1] - CRIAR CARTEIRA");
 			System.out.println("[2] - RENDA FIXA");
 			System.out.println("[3] - RENDA VARIAVEL");
@@ -28,7 +31,8 @@ public class Main {
 			System.out.println("Entre com uma opção");
 			option = sc.nextInt();
 
-			switch (option) {
+			switch (option) 
+			{
 			case 1:
 				carteira = CarteiraFactory.createCarteira(sc);
 				break;
@@ -42,13 +46,15 @@ public class Main {
 				break;
 				
 			case 4:
-				if(carteira != null) {
+				if(carteira != null) 
+				{
 					Arquivo.gerarJson(carteira.getInvestimentos());
 				}
 				break;
 				
 			case 5:
-				if(carteira != null) {
+				if(carteira != null) 
+				{
 					Arquivo.gerarCsv(carteira.getInvestimentos());
 				}
 			case 0:
