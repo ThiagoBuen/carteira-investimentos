@@ -37,6 +37,8 @@ As seguintes ferramentas estão sendo utilizadas para a construção do projeto:
 - Java versão 11+
 
 #### Observação: Certifique-se de ter todas as variáveis de ambiente configuradas para executar.
+#### Paths a serem adicionados como variáveis de ambiente:
+
 - Diretório da pasta __bin__ da pasta do Apache Maven.
 
 ### Clone:
