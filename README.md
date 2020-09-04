@@ -36,7 +36,7 @@ As seguintes ferramentas estão sendo utilizadas para a construção do projeto:
 - [Apache Maven 3.6.3](https://maven.apache.org/download.cgi): Maven Bin
 - Java versão 11+
 
-## Observação: Certifique-se de ter todas as variáveis de ambiente configuradas para executar.
+#### Observação: Certifique-se de ter todas as variáveis de ambiente configuradas para executar.
 - Diretório da pasta __bin__ da pasta do Apache Maven.
 
 ### Clone:
