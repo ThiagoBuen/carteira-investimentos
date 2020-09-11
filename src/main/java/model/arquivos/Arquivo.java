@@ -39,6 +39,37 @@ public class Arquivo
 			}
 		}
 	}
+	
+	
+	
+
+	public static FileWriter getFileWriter() {
+		return fileWriter;
+	}
+
+
+
+
+	public static File getFile() {
+		return file;
+	}
+
+
+
+
+	public static void setFile(File file) {
+		Arquivo.file = file;
+	}
+
+
+
+
+	public static void setFileWriter(FileWriter fileWriter) {
+		Arquivo.fileWriter = fileWriter;
+	}
+
+
+
 
 	public static void gerarCsv(List<Investimento> investimentos) 
 	{
