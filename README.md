@@ -23,12 +23,15 @@ As seguintes bibliotecas são necessárias para a construção do projeto:
 
 - [Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
 - [OpenCSV](https://mvnrepository.com/artifact/com.opencsv/opencsv)
+- [JUnit 4.12](https://mvnrepository.com/artifact/junit/junit/4.12)
+
 
 ## Ferramentas
 
 As seguintes ferramentas estão sendo utilizadas para a construção do projeto:
 
 - [Maven](http://maven.apache.org/)
+- [JUnit5](https://junit.org/junit5/docs/current/user-guide/)
 
 ## Como utilizar?
 
