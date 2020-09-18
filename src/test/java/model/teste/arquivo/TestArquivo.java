@@ -1,4 +1,4 @@
-package maven.teste.arquivo;
+package model.teste.arquivo;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
